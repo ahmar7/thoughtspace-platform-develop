@@ -1,0 +1,35 @@
+/* .headerCon {
+  background-color: black;
+} */
+.header-sec2 button {
+  width: 185px;
+  height: 42px;
+  background: linear-gradient(90deg, #84ceeb -2.15%, #5680e9 100%);
+  box-shadow: 0px 4px 62px rgba(0, 0, 0, 0.08);
+  border-radius: 60px;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: none;
+  cursor: pointer;
+}
+.header-sec2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.headerCon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+.headerWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

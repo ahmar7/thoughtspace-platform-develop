@@ -1,0 +1,163 @@
+.commentboxcon {
+  height: auto;
+}
+.commentcon {
+  height: 100%;
+}
+.commentsecimg {
+  height: 100%;
+}
+.border_bottom {
+  height: 55px;
+  width: 1px;
+  background-color: black;
+  margin-left: 48px;
+}
+.commentsecimg img {
+  width: 100px;
+  height: 100px;
+}
+.commentsecinfosec1 p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #756d6d;
+}
+.commentsecinfosec1 img {
+  width: 20px;
+}
+.commentsecinfosec1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 409.8px;
+}
+.commentsectwitter img {
+  width: 20px;
+}
+.commentsectwitter p {
+  font-size: 20px;
+  color: #aeaeae;
+}
+.commentsectwitter {
+  display: flex;
+  align-items: center;
+}
+.commentsecinfosec2 p {
+  font-size: 20px;
+  color: #aeaeae;
+}
+.commentsecinfosec2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 273px;
+}
+.commentsecinfosec3 p {
+  font-size: 20px;
+  color: #615f5f;
+}
+.updownsec button span img {
+  width: 20px;
+}
+.updownsec button {
+  background: transparent;
+  border: none;
+}
+.updownsec p {
+  font-size: 20px;
+}
+.updownsec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 109.28px;
+}
+.replysec {
+  cursor: pointer;
+}
+.replysec img {
+  width: 20px;
+}
+.replysec p {
+  font-size: 20px;
+  color: #756d6d;
+  font-weight: 500;
+  margin-left: 5px;
+}
+.replysec {
+  display: flex;
+  align-items: center;
+}
+.commentsectoolbar,
+.commentsectoolbarreport {
+  font-size: 20px;
+  color: #756d6d;
+  font-weight: 500;
+}
+.commentsecinfosec4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 650.4px;
+}
+.commentsecinfocon {
+  line-height: 0px;
+  margin-left: 25px;
+}
+.commentseccon {
+  display: flex;
+  align-items: flex-start;
+}
+.commentboxcon {
+ margin-left: 30px;
+ margin-top: 20px;
+}
+@media (max-width: 800px) {
+  .commentsecimg img {
+    width: 21px;
+    height: 21px;
+  }
+  .commentsecinfosec1 p {
+    font-size: 8px;
+  }
+  .commentsecinfosec1 {
+    width: 60vw;
+  }
+  .commentsecinfosec2 p {
+    font-size: 8px;
+  }
+  .commentsecinfosec2 img {
+    width: 8px;
+  }
+  .commentsecinfosec2 {
+    width: 30vw;
+  }
+  .commentsecinfosec3 p {
+    font-size: 8px;
+  }
+  .updownsec p {
+    font-size: 8px;
+  }
+  .updownsec button span img {
+    width: 10px;
+  }
+  .updownsec {
+    width: 50px;
+  }
+  .replysec p {
+    font-size: 8px;
+  }
+  .replysec img {
+    width: 10px;
+  }
+  .commentsectoolbar {
+    font-size: 8px;
+  }
+  .commentsectoolbarreport {
+    display: none;
+  }
+  .commentsecinfosec4 {
+    width: 60vw;
+  }
+}

@@ -1,0 +1,36 @@
+.twitterfeedcon h1 {
+  font-weight: 600;
+  font-size: 28px;
+  color: #3b4f7d;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.twitterfeedcon {
+  width: 25vw;
+  height: 1210px;
+  background: linear-gradient( 94.96deg, rgba(231, 238, 255, 0.5) 6.5%, rgba(231, 238, 255, 0.5) 96% );
+  border-radius: 16px;
+}
+.twitterfeedwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 40px; */
+}
+@media only screen and (max-width: 800px) {
+  .timelinedesktop {
+    display: none;
+  }
+  .twitterfeedcon {
+    height: 330px;
+    margin-top: 4vw;
+    width: 90vw;
+    margin-left: 2vw;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .timelinemobile {
+    display: none;
+  }
+}
+

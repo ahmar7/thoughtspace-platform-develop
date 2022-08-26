@@ -1,0 +1,29 @@
+.linechartcon {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.linechartparent {
+  width: 55vw;
+  height: 450px;
+
+  background: linear-gradient(
+    94.96deg,
+    rgba(231, 238, 255, 0.5) 6.5%,
+    rgba(231, 238, 255, 0.5) 96%
+  );
+  border-radius: 16px;
+  padding-top: 10px;
+}
+.recharts-cartesian-grid {
+  width: 55vw !important;
+}
+.linechart-select-sec p {
+  font-size: 18px;
+  color: #3b4f7d;
+}
+.linechart-select-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

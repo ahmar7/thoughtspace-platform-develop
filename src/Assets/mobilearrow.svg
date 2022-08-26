@@ -1,0 +1,24 @@
+<svg width="41" height="44" viewBox="0 0 41 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_ii_0_156)">
+<rect width="41" height="44" rx="20.5" transform="matrix(1 0 0 -1 0 44)" fill="#DCE4F8"/>
+<path d="M12.3331 22.0791C12.3331 21.7521 12.4756 21.4083 12.702 21.1819L18.169 15.7317C18.4205 15.4801 18.7224 15.3544 19.0159 15.3544C19.7286 15.3544 20.2149 15.8491 20.2149 16.5031C20.2149 16.8636 20.0556 17.1571 19.8292 17.3751L17.951 19.2534L16.0895 20.9639L17.9258 20.8633H27.4008C28.1555 20.8633 28.6586 21.358 28.6586 22.0791C28.6586 22.8086 28.1555 23.2949 27.4008 23.2949H17.9258L16.0979 23.1943L17.951 24.9048L19.8292 26.7914C20.0556 27.0094 20.2149 27.2945 20.2149 27.6635C20.2149 28.3175 19.7286 28.8122 19.0159 28.8122C18.7224 28.8122 18.4205 28.6864 18.1606 28.4265L12.702 22.9763C12.4756 22.7499 12.3331 22.4061 12.3331 22.0791Z" fill="#3B4F7D"/>
+</g>
+<defs>
+<filter id="filter0_ii_0_156" x="-2" y="-2" width="45" height="48" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="2" dy="2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.729167 0 0 0 0 0.763889 0 0 0 0 0.875 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_0_156"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-2" dy="-2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect1_innerShadow_0_156" result="effect2_innerShadow_0_156"/>
+</filter>
+</defs>
+</svg>

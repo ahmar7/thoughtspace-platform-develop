@@ -1,0 +1,59 @@
+.text-box-editor-con {
+  width: 76vw;
+  margin-top: 20px;
+}
+.text-box-editor-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.commen-wrapper {
+  width: 85vw;
+  height: auto;
+
+  background: linear-gradient(
+    94.96deg,
+    rgba(231, 238, 255, 0.5) 6.5%,
+    rgba(231, 238, 255, 0.5) 96%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  padding: 40px 0;
+  margin: 20px 0;
+}
+.commentbtncon button {
+  width: 121px;
+  height: 25px;
+  background: #848484;
+  border-radius: 32px;
+  background: #848484;
+  border-radius: 32px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.commentbtncon {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.comment-wrapper-content {
+  width: 82vw;
+  background-color: white;
+  height: auto;
+}
+.rdw-editor-wrapper {
+  border: 1px solid #f1f1f1;
+}
+@media (max-width: 600px) {
+  .commen-wrapper {
+    width: 97vw;
+  }
+  .comment-wrapper-content {
+    width: 96vw;
+  }
+}

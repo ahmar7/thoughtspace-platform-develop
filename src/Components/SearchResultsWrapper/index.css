@@ -1,0 +1,41 @@
+.url-input input {
+    width: 500px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    font-size: 13px;
+    color: black;
+    padding-left: 8px;
+    margin-top: 20px;
+}
+.url-input input::placeholder P{
+    font-size: 13px;
+    color: black;
+}
+.url-input button {
+    width: 150px;
+    height: 42px;
+    background: linear-gradient(90deg, #84ceeb -2.15%, #5680e9 100%);
+    box-shadow: 0px 4px 62px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.url-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+@media (max-width: 800px) {
+    .url-input input {
+        width: 80vw;
+    }
+}

@@ -1,0 +1,109 @@
+.notablefollowerscard {
+  width: 208.53px;
+  height: 162.43px;
+  background: linear-gradient(
+    94.96deg,
+    rgba(231, 238, 255, 0.5) 6.5%,
+    rgba(224, 234, 255, 0.5) 96%
+  );
+  border-radius: 16px;
+  margin-top: 100px;
+}
+.namebox {
+  width: 178.58px;
+  height: 59.8px;
+  background: linear-gradient(
+    94.96deg,
+    rgba(231, 238, 255, 0.5) 6.5%,
+    rgba(224, 234, 255, 0.5) 96%
+  );
+  border-radius: 50px;
+}
+.namebox p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #3b4f7d;
+}
+.namebox img {
+  width: 16.44px;
+}
+.namboxtwitter p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #3b4f7d;
+  margin-left: 5px;
+}
+.namboxtwitter {
+  display: flex;
+  align-items: center;
+  margin-top: -12px;
+}
+.notablefollowerscard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.namebox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1px;
+}
+.notablefollowerimg {
+  margin-top: -80px !important;
+}
+.nameboxmobile {
+  line-height: 1px;
+}
+.notablefollowerscardmobile {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nameboxmobile p {
+  font-weight: 500;
+font-size: 10px;
+}
+.nameboxmobile img {
+  width: 10.44px;
+}
+.namebox {
+  margin-top: 20px;
+}
+.notablefollowerscardmobile {
+  width: 130px;
+  height: 60px;
+  border-radius: 5px;
+  background: linear-gradient(
+    94.96deg,
+    rgba(231, 238, 255, 0.5) 6.5%,
+    rgba(224, 234, 255, 0.5) 96%
+  );
+  border: none;
+}
+.notablefollowerscon {
+  margin-top: 2.7vw;
+}
+@media only screen and (max-width: 800px) {
+    .notablecorouselwrapper {
+      width: 97vw;
+      background: none;
+    }
+}
+@media only screen and (max-width: 1371px) {
+  .notablefollowerscon {
+    margin-top: -2.3vw;
+  }
+}
+@media only screen and (max-width: 1012px) {
+  .notablefollowerscon {
+    margin-top: -5vw;
+  }
+}
+/* @media only screen and (min-width: 600px) {
+   .notablefollowerscardmobile {
+    display: none;
+   }
+} */

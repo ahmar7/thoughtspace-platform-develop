@@ -1,0 +1,291 @@
+.searchresultssubheader p {
+  font-weight: 700;
+  font-size: 24px;
+  color: #3b4f7d;
+  margin-bottom: 15px;
+  text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+}
+.starssec p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #3b4f7d;
+  text-shadow: 0px 4px 36px rgba(0, 0, 0, 0.55);
+  margin-left: 10px;
+}
+.starssec img {
+  width: 100px;
+  height: 17.52px;
+}
+.starssec {
+  display: flex;
+  align-items: center;
+  margin-top: -35px;
+}
+.categoriesbtns button {
+  margin-top: 10px;
+}
+.notableheading {
+  font-weight: 600;
+  font-size: 22px;
+  color: #3b4f7d;
+  margin-left: 40px;
+  padding-top: 30px;
+}
+.notablecorouselwrapper {
+  width: 55vw;
+  height: 407px;
+  background: linear-gradient(
+    94.96deg,
+    rgba(231, 238, 255, 0.5) 6.5%,
+    rgba(231, 238, 255, 0.5) 96%
+  );
+  border-radius: 16px;
+}
+.summaryhead p {
+  font-weight: 400;
+  font-size: 22px;
+  color: #3b4f7d;
+  margin-top: -10px;
+}
+.summaryhead h3 {
+  font-weight: 600;
+  font-size: 22px;
+  color: #3b4f7d;
+}
+.categoriesbtns {
+  margin-left: 40px;
+}
+.searchresultssubheader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.categoriesheading h1 {
+  font-weight: 600;
+  font-size: 28px;
+  color: #3b4f7d;
+  margin-left: 40px;
+}
+.summarybox p {
+  font-weight: 400;
+  font-size: 22px;
+  color: rgba(59, 79, 125, 0.8);
+}
+.summarycon {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.summarybox {
+  width: 67vw;
+  height: 48px;
+  background: rgba(216, 195, 165, 0.1);
+  border-left: 8px solid #d8c3a5;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+.summaryboxes {
+  margin-top: 25px;
+}
+.searchresultssec3con {
+  width: 86%;
+  height: 550px;
+  background: linear-gradient(
+    94.96deg,
+    rgba(231, 238, 255, 0.5) 6.5%,
+    rgba(231, 238, 255, 0.5) 96%
+  );
+  padding-top: 10px;
+  border-radius: 16px;
+}
+.searchresultssec3wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 800px) {
+  .categoriesbtnsmobile {
+    display: none;
+  }
+  .corouselmobile {
+    display: none;
+  }
+  .mobilechart {
+    display: none;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .searchresultssec3con {
+    width: 100%;
+    background: none;
+    height: none;
+  }
+  .notablecorouselwrapper {
+    margin-top: 2px !important;
+  }
+  .searchresultssubheader {
+    line-height: 25px;
+  }
+  .corouseldesktop {
+    display: none;
+  }
+  .notablecorouselparent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .twitterfeedparent {
+    flex-direction: column;
+  }
+  .mintdatesecwrapper {
+    margin-top: 75px !important;
+  }
+  .notableheading {
+    margin-left: 20px;
+  }
+  .notablecorouselwrapper {
+    margin-top: -40px !important;
+  }
+  .linechartmobile {
+    margin-top: -20px;
+  }
+  .twitterfeedcon h1 {
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    color: #3b4f7d !important;
+  }
+  .teammemberswrapper h1 {
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    color: #3b4f7d !important;
+  }
+  .deskchart {
+    display: none;
+  }
+  .followerseccon {
+    margin-top: -20px;
+  }
+  .notableheading {
+    font-weight: 600;
+    font-size: 14px;
+    color: #3b4f7d;
+  }
+  .notablecorouselwrapper {
+    height: 200px !important;
+  }
+  .categoriesheading h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #3b4f7d;
+    text-transform: capitalize;
+    margin-left: 20px;
+  }
+  .starssec p {
+    font-size: 10px !important;
+  }
+  .starssec img {
+    width: 68px;
+    height: 10.01px;
+  }
+  .searchresultssubheader p {
+    font-size: 18px;
+  }
+  .summarycon {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .summaryhead h3 {
+    font-weight: 600;
+    font-size: 14px;
+    color: #3b4f7d;
+  }
+  .categoriesbtns {
+    margin-left: 20px;
+  }
+  .summaryhead p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #4f4f4f;
+  }
+  .mintdatesecwrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+  .summarybox {
+    width: 80%;
+    height: 18px;
+    border-width: 5px;
+  }
+  .mintdatebox {
+    width: 112px !important;
+    height: 20px !important;
+  }
+  .whitepaperbox {
+    width: 112px !important;
+    height: 20px !important;
+  }
+  .whitepaperbox img {
+    width: 10px;
+  }
+  .whitepaperbox p {
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: #3b4f7d !important;
+  }
+  .mintdatebox p {
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: #3b4f7d !important;
+  }
+  .mintdatesec1 p {
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 8px !important;
+    color: #3b4f7d !important;
+  }
+  .mintdatesec {
+    width: 90vw !important;
+    height: 100px !important;
+  }
+  .summarybox p {
+    font-weight: 400;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .mintddateethimg img {
+    width: 40px;
+    height: 40.69px;
+  }
+  .followersec {
+    width: 100%;
+    flex-direction: row !important;
+    background: none !important;
+    justify-content: space-around !important;
+    width: 95vw !important;
+  }
+  .followers box {
+    width: 119px !important;
+    height: 26px !important;
+  }
+  .followersbox img {
+    width: 20px;
+  }
+  .followersbox p {
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    color: rgba(0, 0, 0, 0.8) !important;
+    margin-left: 5px !important;
+  }
+  .followersec {
+    height: 100px !important;
+  }
+  .categoriesbtnsdesktop {
+    display: none;
+  }
+}

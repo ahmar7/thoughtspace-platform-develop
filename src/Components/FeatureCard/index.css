@@ -1,0 +1,192 @@
+.featurecard {
+  width: 62vw;
+  background: linear-gradient(
+    95.52deg,
+    rgba(231, 238, 255, 0.5) 6.92%,
+    rgba(231, 238, 255, 0.5) 95.16%
+  );
+  border-radius: 16px;
+  padding-bottom: 7px;
+}
+.featurecardheading h3 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #3b4f7d;
+  padding-top: 10px;
+  padding-left: 18px;
+}
+.featurecardsec1info p {
+  font-weight: 400;
+  font-size: 22px;
+  color: rgba(29, 93, 240, 0.81);
+}
+.infosec1 p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #6c757d;
+  margin-left: 15px;
+}
+.infosec1 {
+  display: flex;
+  align-items: center;
+  margin-top: -10px;
+}
+.featurecardsec1info {
+  line-height: 0px;
+  margin-left: 10px;
+}
+.featurecardsec1con {
+  display: flex;
+  padding-left: 18px;
+  margin-top: -15px;
+}
+.featurecardsec1img {
+  margin-top: 13px;
+}
+.featuresearchtext p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #3b4f7d;
+  padding-left: 18px;
+  margin-top: -3px;
+}
+.featurecarddescription p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #0b0b0b;
+}
+.featurecarddescription {
+  width: 70%;
+  padding-left: 18px;
+  margin-top: -10px;
+}
+.featurecard2 {
+  width: 62vw;
+  background: linear-gradient(
+    95.52deg,
+    rgba(231, 238, 255, 0.5) 6.92%,
+    rgba(231, 238, 255, 0.5) 95.16%
+  );
+  border-radius: 16px;
+  padding-bottom: 60px;
+  margin-top: 20px;
+}
+.featurecard2heading p {
+  font-weight: 300;
+  font-size: 14px;
+  color: black;
+  padding-left: 18px;
+  padding-top: 15px;
+}
+.ethbtn {
+  width: 84px;
+  height: 22px;
+  background: rgba(59, 79, 125, 0.1);
+  border-radius: 14px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #3b4f7d;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ethbtn span img {
+  margin-top: 2px;
+}
+.ethcount {
+  width: 74px;
+  height: 22.32px;
+  background: rgba(59, 79, 125, 0.1);
+  border-radius: 14px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #3b4f7d;
+  border: none;
+  margin-left: 10px;
+}
+.featurecardbtns {
+  display: flex;
+  align-items: center;
+}
+.featurecardcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 800px) {
+  .featurecard {
+    width: 90vw;
+  }
+  .featurecardheading h3 {
+    font-size: 10px;
+    padding-top: 0px;
+  }
+  .featurecardsec1img img {
+    width: 20px;
+    height: 20px;
+  }
+  .featurecardsec1info {
+    line-height: 6px;
+    margin-top: 3px;
+  }
+  .featurecarddescription p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8px;
+    color: #0b0b0b;
+    opacity: 0.72;
+  }
+  .featurecarddescription {
+    width: 90%;
+  }
+  .ethcount {
+    font-weight: 400;
+    font-size: 6px;
+    color: #3b4f7d;
+    width: 43px;
+    height: 13px;
+    background: rgba(59, 79, 125, 0.1);
+    border-radius: 4px;
+  }
+  .featurecard2 {
+    width: 90vw;
+  }
+  .ethbtn {
+    width: 44px;
+    height: 13px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    color: #3b4f7d;
+  }
+  .ethbtn span img {
+    display: none;
+  }
+  /* .featurecard2heading p {
+    display: none;
+  } */
+  .featuresearchtext p {
+    font-weight: 400;
+    font-size: 8px;
+    color: #3b4f7d;
+    opacity: 0.72;
+  }
+  .infosec1 p {
+    font-weight: 400 !important;
+    font-size: 6px !important;
+    color: #6c757d !important;
+  }
+  .infosec1 img {
+    width: 23px;
+    height: 4.06px;
+  }
+  .featurecardsec1info p {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(29, 93, 240, 0.81);
+  }
+}

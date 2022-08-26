@@ -1,0 +1,52 @@
+.mintdatesec {
+  width: 55vw;
+  height: 240px;
+  background: linear-gradient(
+    94.96deg,
+    rgba(231, 238, 255, 0.5) 6.5%,
+    rgba(231, 238, 255, 0.5) 96%
+  );
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mintdatesec1 p {
+  font-weight: 400;
+  font-size: 22px;
+  color: #3b4f7d;
+}
+.mintdatebox p {
+  font-weight: 400;
+  font-size: 22px;
+  color: #3b4f7d;
+}
+.mintdatebox {
+  width: 230.22px;
+  height: 64px;
+  background: rgba(59, 79, 125, 0.1);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.whitepaperbox p {
+  font-weight: 400;
+  font-size: 22px;
+  color: #3b4f7d;
+}
+.whitepaperbox {
+  width: 230.22px;
+  height: 63.24px;
+  background: rgba(59, 79, 125, 0.1);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+@media (max-width: 800px) {
+  .mintdatesec {
+    margin-top: -50px !important;
+  }
+}

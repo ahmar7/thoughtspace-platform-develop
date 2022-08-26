@@ -1,0 +1,23 @@
+.notablecorouselsecs {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 40vw !important;
+    margin-top: 40px;
+}
+.notablecorouselsecscon {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+ /* @media only screen and (min-width: 600px) {
+    .notablefollowercorouselmobile {
+        display: none;
+    }
+} */
+
+@media only screen and (max-width: 1293px) {
+    .notablecorouselsecs {
+        margin-top: -20px !important;
+    }
+} 

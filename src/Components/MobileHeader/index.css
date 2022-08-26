@@ -1,0 +1,38 @@
+.mobileheaderbutton button {
+  background-color: transparent;
+  border: none;
+}
+.searchsecinputmobile {
+  width: 226.86px;
+  height: 35px;
+  background: linear-gradient(94.96deg, rgba(231, 238, 255, 0.5) 6.5%, rgba(224, 234, 255, 0.5) 96%);
+  box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.11);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.searchsecinputmobile input {
+  width: 180px;
+  height: 35px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 10px;
+  color: rgba(59, 79, 125, 0.77);
+  background-color: transparent;
+}
+.searchsecinputmobile img {
+    margin-top: 5px;
+}
+.mobileheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.searchsecinputmobile input::placeholder {
+    font-weight: 600;
+    font-size: 10px;
+    color: rgba(59, 79, 125, 0.77);
+}

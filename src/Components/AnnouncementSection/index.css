@@ -1,0 +1,15 @@
+.announcement-heading p {
+    font-size: 23px;
+    color: #517acb;
+    font-weight: 700;
+}
+.announcement-description p {
+    font-size: 20px;
+}
+.announcement-date p {
+    font-size: 17px;
+    color: #af5552;
+}
+/* .announcement-date  {
+    border-bottom: 1px solid grey;
+} */

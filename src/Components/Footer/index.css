@@ -1,0 +1,13 @@
+.footersec p {
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
+.footersec img {
+    margin-left: 5px;
+}
+.footersec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
