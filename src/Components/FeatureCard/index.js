@@ -33,7 +33,27 @@ function FeatureCard({ values, trending }) {
           </p>
         </div>
       </div>
-      {values?.length >= 3 && <SearchResultsWrapper values={values} trending={trending} />}
+      <br />
+
+      <div className="featurecard">
+        <div className="featurecardheading">
+          <h3>0 of 5 results for "test"</h3>
+        </div>
+
+        <div style={{ width: "100%" }} className="featurecarddescription pd">
+          <h3 className="search-desc">
+            Please enter the URL of the project you are searching for and we
+            will do the rest
+          </h3>
+          <div className="searchsecinput-web">
+            <input type="text" placeholder="Search anything..." value="" />
+            <button className="serchbtn">Submit</button>
+          </div>
+        </div>
+      </div>
+      {values?.length >= 3 && (
+        <SearchResultsWrapper values={values} trending={trending} />
+      )}
     </div>
   );
 }

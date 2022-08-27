@@ -117,9 +117,79 @@
   width: 100%;
   margin-top: 50px;
 }
+.searchsecinput-web {
+  text-align: center;
+}
+.search-desc {
+  font-weight: 300;
+  font-size: 18px;
+  color: #0b0b0b;
+  margin: 0;
+}
+.searchsecinput-web input {
+  width: 22vw;
+  height: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+  background: #ffffff;
+  box-shadow: 0px 4px 62px rgb(0 0 0 / 8%);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 16px;
+  display: inline;
+  color: #c1c8e4;
+}
+.featurecarddescription h3 {
+  text-align: center;
+}
+/* .searchsecinput-web input {
+  
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #c1c8e4;
+} */
+.pd {
+  padding-left: 0 !important;
+}
+.serchbtn {
+  /* position: relative;
+  left: 50%; */
+  width: 142px;
+  margin-left: 30px;
+  height: 45px;
+  background: linear-gradient(
+    90deg,
+    rgb(193, 200, 228) -2.15%,
+    rgb(86, 128, 233) 100%
+  );
+  cursor: pointer;
+
+  box-shadow: 0px 4px 62px rgb(0 0 0 / 8%);
+  border-radius: 60px;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+}
 @media only screen and (max-width: 800px) {
+  .searchsecinput-web input {
+    width: 250px !important;
+    height: 40px !important;
+  }
   .featurecard {
     width: 90vw;
+  }
+  .featurecardcon {
+    margin-top: 18px;
   }
   .featurecardheading h3 {
     font-size: 10px;
@@ -188,5 +258,19 @@
     font-weight: 400;
     font-size: 12px;
     color: rgba(29, 93, 240, 0.81);
+  }
+}
+@media (max-width: 515px) {
+  .searchsecinput-web input {
+    width: 199px !important;
+  }
+  .searchsecinput-web {
+    margin-left: -19px;
+  }
+  .serchbtn {
+    margin-left: 0;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
   }
 }

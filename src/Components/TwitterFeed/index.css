@@ -21,9 +21,29 @@
   justify-content: center;
   /* margin-top: 40px; */
 }
+.pheeds {
+  font-weight: 600;
+  font-size: 22px;
+  color: rgb(59, 79, 125);
+  margin-left: 6vw;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
 @media only screen and (max-width: 800px) {
+  .timelinemobile iframe {
+    width: 80vw !important;
+    margin-top: 20px;
+    height: 280px !important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
   .timelinedesktop {
     display: none;
+  }
+  .pheeds {
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    color: #3b4f7d !important;
   }
   .twitterfeedcon {
     height: 330px;
@@ -38,8 +58,9 @@
   }
 }
 
-.twitter-timeline.twitter-timeline-rendered iframe {
+.timelinedesktop .twitter-timeline.twitter-timeline-rendered iframe {
   height: 960px !important;
   border-bottom-left-radius: 10px;
+  margin-top: 20px;
   border-bottom-right-radius: 10px;
 }

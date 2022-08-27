@@ -51,6 +51,12 @@
   .searchsecbtns {
     display: none;
   }
+  .searchseccon {
+    margin-top: 8px;
+  }
+  .mobileheaderlogo {
+    margin-top: 8px;
+  }
 }
 @media only screen and (min-width: 800px) {
   .searchsecbtnsmobile {

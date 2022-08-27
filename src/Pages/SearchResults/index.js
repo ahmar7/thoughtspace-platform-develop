@@ -49,15 +49,15 @@ function SearchResults({ values, setValues }) {
             <div className="searchresultssec3con">
               <div className="categoriescon">
                 <div className="categoriesheading">
-                  <h1>CATEGORIES</h1>
+                  <h1>Category</h1>
                 </div>
                 <div className="categoriesbtnsmobile">
                   <div
                     style={{
                       display: "flex",
                       alignItems: "flex-start",
-                      justifyContent: "space-between",
-                      width: "80vw",
+                      justifyContent: "start",
+
                       flexWrap: "wrap",
                     }}
                     className="categoriesbtns"
@@ -68,6 +68,8 @@ function SearchResults({ values, setValues }) {
                           style={{
                             width: "62px",
                             height: "22px",
+                            marginLeft: "5px",
+                            marginRight: "5px",
                             background:
                               "linear-gradient(94.96deg, rgba(231, 238, 255, 0.5) 6.5%, rgba(224, 234, 255, 0.5) 96%)",
                             borderRadius: "60px",
@@ -118,7 +120,7 @@ function SearchResults({ values, setValues }) {
                 </div>
                 <div className="summarycon">
                   <div className="summaryhead">
-                    <h3>SUMMARY</h3>
+                    <h3>Summary</h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor{" "}
@@ -181,7 +183,7 @@ function SearchResults({ values, setValues }) {
                         style={{ marginTop: "30px" }}
                         className="notablecorouselwrapper"
                       >
-                        <h1 className="notableheading">NOATABLE FOLLOWERS</h1>
+                        <h1 className="notableheading">Notable Follwers</h1>
                         <div
                           style={{
                             display: "flex",
@@ -203,7 +205,7 @@ function SearchResults({ values, setValues }) {
                         </div>
                       </div>
                     </div>
-                    <div style={{ marginTop: "30px" }}>
+                    <div className="top-c">
                       <div className="deskchart">
                         <LineChart data={product?.GraphData} />
                       </div>
@@ -211,7 +213,7 @@ function SearchResults({ values, setValues }) {
                         <LineChartMobile data={product?.GraphData} />
                       </div>
                     </div>
-                    <div style={{ marginTop: "30px" }}>
+                    <div className="team-m">
                       <TeamMembers data={product?.TeamMembers} />
                     </div>
                   </div>
