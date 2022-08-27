@@ -8,7 +8,11 @@
 .twitterfeedcon {
   width: 25vw;
   height: 1210px;
-  background: linear-gradient( 94.96deg, rgba(231, 238, 255, 0.5) 6.5%, rgba(231, 238, 255, 0.5) 96% );
+  background: linear-gradient(
+    94.96deg,
+    rgba(231, 238, 255, 0.5) 6.5%,
+    rgba(231, 238, 255, 0.5) 96%
+  );
   border-radius: 16px;
 }
 .twitterfeedwrapper {
@@ -34,3 +38,8 @@
   }
 }
 
+.twitter-timeline.twitter-timeline-rendered iframe {
+  height: 960px !important;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

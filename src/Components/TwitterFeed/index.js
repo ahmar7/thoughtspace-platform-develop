@@ -18,6 +18,8 @@ function TwitterFeed() {
               screenName: "elonmusk",
             }}
             options={{
+              replies: "false",
+              chrome: "scroll ",
               height: "924",
               width: "365",
             }}
