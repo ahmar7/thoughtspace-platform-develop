@@ -146,6 +146,10 @@
   }
 }
 @media only screen and (max-width: 800px) {
+  .searchresultssec3wrapper {
+    margin-left: 0;
+    margin-right: 0;
+  }
   .summaryboxes {
     margin-top: 0px;
   }
@@ -286,7 +290,7 @@
   .mintdatesec1 p {
     font-style: normal;
     font-weight: 400 !important;
-    font-size: 8px !important;
+    font-size: 10px !important;
     color: #3b4f7d !important;
   }
   .mintdatesec {
@@ -298,7 +302,16 @@
     font-size: 10px;
     color: rgba(0, 0, 0, 0.8);
   }
+  .mintdatesec {
+    justify-content: right;
+  }
+  .mintdatesec1 {
+    margin-left: 30px;
+  }
 
+  .mintddateethimg {
+    margin-right: 15px;
+  }
   .followersec {
     width: 100%;
     flex-direction: row !important;
@@ -324,5 +337,25 @@
   }
   .categoriesbtnsdesktop {
     display: none;
+  }
+}
+@media (max-width: 420px) {
+  .mintdatesec1 {
+    margin-left: 30px;
+  }
+
+  .mintddateethimg {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .mintdatesec1 p {
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 9px !important;
+    color: #3b4f7d !important;
+  }
+  .mintdatesec1 {
+    margin-left: 20px;
   }
 }

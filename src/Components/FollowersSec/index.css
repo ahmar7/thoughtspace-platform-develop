@@ -81,7 +81,7 @@
     height: 45.69px;
   }
   .followersbox {
-    width: 25vw;
+    width: 29vw;
     height: 30px;
   }
   .followersbox img {
@@ -89,6 +89,13 @@
     margin-left: 10px !important;
   }
   .followersbox p {
-    font-size: 8px !important;
+    font-size: 10px !important;
+  }
+  .notablefollowerscardmobile img {
+    width: 38px !important;
+    height: 38px !important;
+  }
+  .namboxtwitter img {
+    width: 10.4px !important;
   }
 }

@@ -37,6 +37,9 @@
   font-size: 22px;
   color: #3b4f7d;
 }
+.sup {
+  color: #000000;
+}
 .whitepaperbox {
   width: 230.22px;
   height: 63.24px;
@@ -69,5 +72,8 @@
 @media (max-width: 800px) {
   .mintdatesec {
     margin-top: -50px !important;
+  }
+  .mintdatesec {
+    justify-content: space-between;
   }
 }

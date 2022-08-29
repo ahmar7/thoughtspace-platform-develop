@@ -43,20 +43,39 @@
   </body>
 
   <script>
-    const myTimeout = setInterval(myGreeting, 5000);
-    function myGreeting() {
+    const myTimeout1 = setInterval(myGreeting1, 5000);
+    function myGreeting1() {
       let iframes0 = document.getElementById("twitter-widget-0");
-      let iframes1 = document.getElementById("twitter-widget-1");
-      let iframes2 = document.getElementById("twitter-widget-2");
-      let iframesmbl = document.getElementById("twitter-widget-3");
-      console.log("Iframeess", iframes); 
+      
       iframes0.setAttribute("scrolling", "yes");
+      
+      console.log("Iframeess", iframes0); 
+    }
+    const myTimeout2 = setInterval(myGreeting2, 5000);
+    function myGreeting2() { 
+      let iframes1 = document.getElementById("twitter-widget-1");
+        
       iframes1.setAttribute("scrolling", "yes");
+     
+      console.log("Iframeess", iframes1); 
+    }
+    const myTimeout3 = setInterval(myGreeting3, 5000);
+    function myGreeting3() {
+     
+      let iframes2 = document.getElementById("twitter-widget-2"); 
+      
       iframes2.setAttribute("scrolling", "yes");
+     
+      console.log("Iframeess", iframes2); 
+    }
+    const myTimeout4 = setInterval(myGreeting4, 5000);
+    function myGreeting4() {
+ 
+      let iframesmbl = document.getElementById("twitter-widget-3");
+ 
       iframesmbl.setAttribute("scrolling", "yes");
+      console.log("Iframeess", iframesmbl); 
     }
-    function myStopFunction() {
-      clearTimeout(myTimeout);
-    }
+     
   </script>
 </html>

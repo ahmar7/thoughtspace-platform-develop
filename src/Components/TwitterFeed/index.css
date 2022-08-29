@@ -36,10 +36,16 @@
   margin-top: 16px;
   margin-bottom: 16px;
 }
-.twitter-timeline.twitter-timeline-rendered iframe {
-  width: 25vw !important;
+.timelinedesktop iframe {
+  width: 16vw !important;
+}
+.twitter-timeline.twitter-timeline-rendered {
+  width: auto !important;
 }
 @media only screen and (max-width: 800px) {
+  .twitter-timeline.twitter-timeline-rendered iframe {
+    width: 80vw !important;
+  }
   .desk {
     display: none;
   }
