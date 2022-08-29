@@ -27,3 +27,66 @@
   align-items: center;
   justify-content: space-around;
 }
+.linechart-select-sec select {
+  height: 43.83888626098633px;
+  width: 178.97361755371094px;
+  color: rgba(59, 79, 125, 0.8);
+
+  border-radius: 60px;
+  /* padding: 30px; */
+  padding: 0 31px;
+  border: none;
+  outline: none;
+  background: linear-gradient(
+    94.96deg,
+    rgba(231, 238, 255, 0.9) 6.5%,
+    rgba(224, 234, 255, 0.9) 96%
+  );
+  appearance: none;
+}
+/* .linechart-select-sec select::before {
+  background-image: url("../../Assets/Vector.png");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 5px;
+} */
+.MuiInputBase-root.MuiFilledInput-root.MuiFilledInput-underline.MuiInputBase-colorPrimary.MuiInputBase-formControl.css-67qocj-MuiInputBase-root-MuiFilledInput-root-MuiSelect-root {
+  height: 43.83888626098633px;
+  width: 178.97361755371094px;
+
+  border-radius: 60px;
+  padding: 30px;
+  background: linear-gradient(
+    94.96deg,
+    rgba(231, 238, 255, 0.9) 6.5%,
+    rgba(224, 234, 255, 0.9) 96%
+  );
+}
+.css-67qocj-MuiInputBase-root-MuiFilledInput-root-MuiSelect-root:before {
+  border: none !important;
+}
+
+.select_box {
+  width: 200px;
+  overflow: hidden;
+  position: relative;
+  padding: 10px 0;
+}
+.select_box:after {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+
+  border-right: 6px solid transparent;
+  border-top: 6px solid #3b4f7d;
+  position: absolute;
+  top: 46%;
+  right: 54px;
+  content: "";
+  z-index: 999999999999999999999;
+}
+.select_box select {
+  border: 0;
+  position: relative;
+  z-index: 99;
+}

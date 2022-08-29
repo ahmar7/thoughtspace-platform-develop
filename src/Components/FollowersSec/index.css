@@ -1,5 +1,5 @@
 .followersec {
-  width: 25vw;
+  width: 20vw;
   height: 211px;
   background: linear-gradient(
     94.96deg,
@@ -13,6 +13,7 @@
   flex-direction: column;
   padding-bottom: 1vw;
 }
+
 .followersbox p {
   font-weight: 400;
   font-size: 22px;
@@ -23,7 +24,7 @@
   margin-left: 25px;
 }
 .followersbox {
-  width: 300px;
+  width: 16vw;
   height: 50px;
   background: linear-gradient(
     94.96deg,
@@ -35,9 +36,14 @@
   align-items: center;
   margin-top: 15px;
 }
-#twitter-widget-2 {
+/* #twitter-widget-2 {
   width: 22vw !important;
-}
+} */
+/* @media (min-width: 1800px) {
+  .followersbox {
+    width: 353px;
+  }
+} */
 @media (max-width: 1189px) {
   .followersbox {
     width: 90%;

@@ -124,6 +124,16 @@
 .teammemberswrapper h1 {
   text-transform: uppercase;
 }
+
+@media only screen and (min-width: 1500px) {
+  .searchresultssec3wrapper {
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 @media only screen and (min-width: 800px) {
   .categoriesbtnsmobile {
     display: none;

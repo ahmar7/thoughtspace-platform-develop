@@ -45,10 +45,14 @@
   <script>
     const myTimeout = setInterval(myGreeting, 5000);
     function myGreeting() {
-      let iframes = document.getElementById("twitter-widget-2");
+      let iframes0 = document.getElementById("twitter-widget-0");
+      let iframes1 = document.getElementById("twitter-widget-1");
+      let iframes2 = document.getElementById("twitter-widget-2");
       let iframesmbl = document.getElementById("twitter-widget-3");
-      console.log("Iframeess", iframes);
-      iframes.setAttribute("scrolling", "yes");
+      console.log("Iframeess", iframes); 
+      iframes0.setAttribute("scrolling", "yes");
+      iframes1.setAttribute("scrolling", "yes");
+      iframes2.setAttribute("scrolling", "yes");
       iframesmbl.setAttribute("scrolling", "yes");
     }
     function myStopFunction() {
