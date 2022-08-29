@@ -35,7 +35,7 @@ function FeatureCard({ values, trending }) {
       </div>
       <br />
 
-      <div className="featurecard">
+      {/* <div className="featurecard">
         <div className="featurecardheading">
           <h3>0 of 5 results for "test"</h3>
         </div>
@@ -50,7 +50,7 @@ function FeatureCard({ values, trending }) {
             <button className="serchbtn">Submit</button>
           </div>
         </div>
-      </div>
+      </div> */}
       {values?.length >= 3 && (
         <SearchResultsWrapper values={values} trending={trending} />
       )}

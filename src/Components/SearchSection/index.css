@@ -1,6 +1,7 @@
 .searchsecinput {
   width: 56.7vw;
   height: 66px;
+  margin-right: 30px;
   background: #ffffff;
   box-shadow: 0px 4px 62px rgba(0, 0, 0, 0.08);
   border-radius: 100px;

@@ -15,7 +15,7 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link href='https://fonts.googleapis.com/css?family=Reem Kufi' rel='stylesheet'>
+
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -39,8 +39,20 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
-    --> 
-    
+    -->
   </body>
-  
+
+  <script>
+    const myTimeout = setInterval(myGreeting, 5000);
+    function myGreeting() {
+      let iframes = document.getElementById("twitter-widget-2");
+      let iframesmbl = document.getElementById("twitter-widget-3");
+      console.log("Iframeess", iframes);
+      iframes.setAttribute("scrolling", "yes");
+      iframesmbl.setAttribute("scrolling", "yes");
+    }
+    function myStopFunction() {
+      clearTimeout(myTimeout);
+    }
+  </script>
 </html>

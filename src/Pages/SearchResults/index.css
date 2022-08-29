@@ -30,6 +30,7 @@
 }
 .notableheading {
   font-weight: 600;
+  text-transform: uppercase;
   font-size: 22px;
   color: #3b4f7d;
   margin-left: 40px;
@@ -55,12 +56,13 @@
   margin-top: -10px;
 }
 .summaryhead h3 {
+  text-transform: uppercase;
   font-weight: 600;
   font-size: 22px;
   color: #3b4f7d;
 }
 .categoriesbtns {
-  margin-left: 40px;
+  margin-left: 0px;
 }
 .searchresultssubheader {
   display: flex;
@@ -70,6 +72,7 @@
 }
 .categoriesheading h1 {
   font-family: "reemKufi";
+  text-transform: uppercase;
   font-weight: 600;
   font-size: 28px;
   color: #3b4f7d;
@@ -109,6 +112,8 @@
   border-radius: 16px;
 }
 .searchresultssec3wrapper {
+  margin-left: 50px;
+  margin-right: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,7 +121,9 @@
 .team-m {
   margin-top: 30px;
 }
-
+.teammemberswrapper h1 {
+  text-transform: uppercase;
+}
 @media only screen and (min-width: 800px) {
   .categoriesbtnsmobile {
     display: none;
@@ -159,6 +166,7 @@
   }
   .notableheading {
     margin-left: 20px;
+    text-transform: capitalize;
   }
   .notablecorouselwrapper {
     margin-top: -40px !important;
@@ -173,6 +181,7 @@
   }
   .teammemberswrapper h1 {
     font-weight: 600 !important;
+    text-transform: capitalize;
     font-size: 14px !important;
     color: #3b4f7d !important;
   }
@@ -198,7 +207,7 @@
     font-weight: 600;
     font-size: 14px;
     color: #3b4f7d;
-    /* text-transform: capitalize; */
+    text-transform: capitalize;
     margin-left: 20px;
   }
   .starssec p {
@@ -216,6 +225,7 @@
     margin-top: 7px;
   }
   .summaryhead h3 {
+    text-transform: capitalize;
     font-weight: 600;
     font-size: 14px;
     color: #3b4f7d;

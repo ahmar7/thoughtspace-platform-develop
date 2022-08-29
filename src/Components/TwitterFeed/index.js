@@ -10,8 +10,9 @@ function TwitterFeed() {
   return (
     <>
       {" "}
-      <h1 className="pheeds">Feeds</h1>
+      <h1 className="pheeds mbl">Feeds</h1>
       <div className="twitterfeedcon">
+        <h1 className="pheeds desk">FEEDS</h1>
         <div className="twitterfeedwrapper">
           <div className="timelinedesktop">
             <Timeline

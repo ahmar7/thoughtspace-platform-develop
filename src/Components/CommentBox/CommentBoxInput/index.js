@@ -4,12 +4,12 @@ import { EditorState } from "draft-js";
 import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 import "./index.css";
 
-function Commentbox({EditorRef}) {
+function Commentbox({ EditorRef }) {
   const [editorState, setEditorState] = useState(EditorState.createEmpty());
   const onEditorStateChange = (editorState) => {
     setEditorState(editorState);
   };
-  
+
   return (
     <div>
       <div className="text-box-editor-wrapper">

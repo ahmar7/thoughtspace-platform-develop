@@ -49,7 +49,7 @@ function SearchResults({ values, setValues }) {
             <div className="searchresultssec3con">
               <div className="categoriescon">
                 <div className="categoriesheading">
-                  <h1>Category</h1>
+                  <h1>Categories</h1>
                 </div>
                 <div className="categoriesbtnsmobile">
                   <div
@@ -90,7 +90,7 @@ function SearchResults({ values, setValues }) {
                     style={{
                       display: "flex",
                       alignItems: "flex-start",
-                      justifyContent: "space-between",
+                      justifyContent: "space-evenly",
                       width: "80vw",
                       flexWrap: "wrap",
                       marginRight: "80px",

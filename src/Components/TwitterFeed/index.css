@@ -21,6 +21,13 @@
   justify-content: center;
   /* margin-top: 40px; */
 }
+.desk {
+  display: block;
+  margin-left: 0 !important;
+}
+.mbl {
+  display: none;
+}
 .pheeds {
   font-weight: 600;
   font-size: 22px;
@@ -30,6 +37,12 @@
   margin-bottom: 16px;
 }
 @media only screen and (max-width: 800px) {
+  .desk {
+    display: none;
+  }
+  .mbl {
+    display: block;
+  }
   .timelinemobile iframe {
     width: 80vw !important;
     margin-top: 20px;
@@ -59,8 +72,8 @@
 }
 
 .timelinedesktop .twitter-timeline.twitter-timeline-rendered iframe {
-  height: 960px !important;
+  height: 1020px !important;
   border-bottom-left-radius: 10px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   border-bottom-right-radius: 10px;
 }

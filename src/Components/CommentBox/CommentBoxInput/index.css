@@ -35,11 +35,11 @@
   cursor: pointer;
 }
 .commentbtncon {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    margin-right: 40px;
-    margin-top: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-right: 40px;
+  margin-top: 20px;
 }
 .comment-wrapper-content {
   width: 82vw;
@@ -55,5 +55,31 @@
   }
   .comment-wrapper-content {
     width: 96vw;
+  }
+  .rdw-link-wrapper:nth-child(2) {
+    display: none;
+  }
+  .rdw-inline-wrapper:nth-child(6) {
+    display: none !important;
+  }
+  /* [title|="Superscript"] {
+    display: none;
+  }
+  [title|="Subscript"] {
+    display: none;
+  } */
+  [title|="Monospace"] {
+    display: none;
+  }
+  [title|="Indent"] {
+    display: none;
+  }
+  [title|="Outdent"] {
+    display: none;
+  }
+  .rdw-option-wrapper {
+    min-width: 13px !important;
+    margin: 0 2px !important;
+    padding: 2px !important;
   }
 }
